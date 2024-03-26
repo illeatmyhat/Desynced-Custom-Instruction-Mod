@@ -1,0 +1,17 @@
+{
+    "id": "MyCustomMod",
+    "name": "My Custom Mod",
+    "version_name": "1.0",
+    "version_code": 1,
+    "author": "You!",
+    "homepage": "https://example.com/",
+    "description": "A basic example showing how to write a mod adding new Instructions.",
+    "packages": {
+        "Data": {
+            "name": "Mod Data",
+            "entry": "data/data.lua",
+            "dependencies": [ "Main/Data" ],
+            "type": "Addon"
+        }
+    }
+}
